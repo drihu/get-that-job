@@ -6,11 +6,16 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/job-listing.css">
+  <link rel="stylesheet" href="/css/job-details.css">
 </head>
 <body>
-
 <!-- This will be on all pages -->
 <%= erb :navbar %>
-
 <%= yield %>
+<%= erb :footer %>
 </body>
