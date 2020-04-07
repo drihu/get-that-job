@@ -2,6 +2,7 @@ footer{
     padding-top: 15px;
     background-color: #ffffff;
     font-family: "Nunito";
+    text-align: center;
 }
 
 footer .container {
@@ -39,5 +40,6 @@ footer .container ul{
 @media only screen and (min-width: 992px) {
   .cont {
     width: 20%;
+    text-align: left;
   }
 }
