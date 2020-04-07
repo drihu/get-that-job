@@ -1,0 +1,120 @@
+.login-main-container{
+    display: block;
+    font-family: 'Nunito', sans-serif;
+}
+
+.login-main-container .container{
+    width: 256px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 10%;
+}
+
+.login-main-container .container-son{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.login-main-container .container-faq{
+    width: 856px;
+    margin: 80px 0 0 200px;
+    text-align: start;
+}
+
+.login-main-container .login-middle h3{
+    font-weight: 600;
+    font-size: 24px;
+    padding: 13px 0;
+}
+
+.login-main-container .login-middle p{
+    font-size: 20px;
+}
+
+.login-main-container .login-top h1#forgot{
+    margin-bottom: 10px;
+}
+
+.login-main-container input, button{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px; 
+    font-size: 16px;
+}
+
+.login-middle input, textarea{
+    border: 1px solid #D9D9D9;
+    padding-left: 14px;
+    background: #fff;
+    margin: 7px 0;
+}
+textarea{
+    width: 100%;
+    height: 127px;
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: -2px;
+}
+
+.login-bottom button{
+    color: #fff;
+    background: #3C2DFF;
+    margin: 5px 0 7px 0;
+}
+
+.login-main-container .login-bottom a{
+    color: #3C2DFF;
+}
+
+.login-main-container .login-top h1{
+    text-align: center;
+}
+
+.login-main-container .login-bottom a{
+    margin-left: 25%;
+}
+
+.login-main-container .login-bottom a#sign-in{
+    margin-left: 41%;
+}
+
+.login-main-container .container-signup{
+    width: 400px;
+    margin: 7% 0 7% 14%;
+}
+
+.login-main-container .container-signup p.info{
+    color: #8C8C8C;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.login-main-container .radio{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login-main-container .n{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    height: 35px;
+}
+
+.login-main-container .radio input, .login-main-container .n input{
+    width: 16px;
+}
+.login-main-container button.button-b{
+    margin: 10px 0;
+    border-radius: 0;
+    border: 1px solid #3C2DFF;
+    color: #3C2DFF;
+    background: #fff;
+    width: 143px;
+}
