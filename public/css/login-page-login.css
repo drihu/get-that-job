@@ -1,5 +1,6 @@
 .login-main-container{
     display: block;
+    padding-bottom: 150px;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -36,11 +37,18 @@
     margin-bottom: 10px;
 }
 
-.login-main-container input, button{
-    width: 100%;
-    height: 40px;
-    border-radius: 4px; 
-    font-size: 16px;
+.login-form-control {
+  display: block;
+  width: 100%;
+  margin: 0 0 8px;
+  padding: 8px 12px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  color: #BFBFBF;
+  font-family: "Nunito";
+  font-size: 16px;
+  line-height: 24px;
+  resize: none;
 }
 
 .login-middle input, textarea{
@@ -49,7 +57,7 @@
     background: #fff;
     margin: 7px 0;
 }
-textarea{
+.registration-form-control {
     width: 100%;
     height: 127px;
     border-radius: 4px;
@@ -57,7 +65,9 @@ textarea{
     font-size: 16px;
     line-height: 24px;
     color: #595959;
+    font-family: "Nunito";
     margin-bottom: -2px;
+    resize: none;
 }
 
 .login-bottom button{
@@ -66,20 +76,8 @@ textarea{
     margin: 5px 0 7px 0;
 }
 
-.login-main-container .login-bottom a{
-    color: #3C2DFF;
-}
-
 .login-main-container .login-top h1{
     text-align: center;
-}
-
-.login-main-container .login-bottom a{
-    margin-left: 25%;
-}
-
-.login-main-container .login-bottom a#sign-in{
-    margin-left: 41%;
 }
 
 .login-main-container .container-signup{
@@ -97,7 +95,7 @@ textarea{
     display: flex;
     font-size: 14px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .login-main-container .n{
@@ -110,11 +108,41 @@ textarea{
 .login-main-container .radio input, .login-main-container .n input{
     width: 16px;
 }
-.login-main-container button.button-b{
-    margin: 10px 0;
+.login-main-container .button-b{
+    display: inline-block;
+    margin: 12px 0;
+    padding: 8px 16px;
     border-radius: 0;
     border: 1px solid #3C2DFF;
     color: #3C2DFF;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
     background: #fff;
-    width: 143px;
+}
+
+button.login-form-submit {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 8px 55px;
+  background-color: #3C2DFF;
+  border: 0;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: "Nunito";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+a.login-form-link {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3C2DFF;
+  text-align: center;
 }

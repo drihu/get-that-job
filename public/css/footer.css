@@ -1,5 +1,6 @@
-
 footer{
+    padding-top: 15px;
+    background-color: #ffffff;
     border-bottom: 1px solid rgba(193, 187, 187, 0.77);
 }
 
@@ -24,6 +25,10 @@ footer .container ul{
 
 footer .container .cont{
     width: 170px;
+}
+
+.year {
+  border-top: 1px solid rgba(193, 187, 187, 0.77);
 }
 
 .year p{

@@ -1,17 +1,19 @@
 <div class="login-main-container">
     <div class="container">
-        <div class="login-top">
-            <h1>Login</h1>
-        </div>
-        <div class="login-middle">
-            <label for='email'>Email</label> </br>
-            <input type="text" id="email" placeholder="youremail@email.com">
-            <label for='password'>Password</label> </br>
-            <input type="text" id="password" placeholder="*******">
-        </div>
-        <div class="login-bottom">
-            <button>Submit</button>
-            <a href="#">Forgot password?</a>
-        </div>
+        <form action="/job-listing">
+            <div class="login-top">
+                <h1>Login</h1>
+            </div>
+            <div class="login-middle">
+                <label for='email'>Email</label> </br>
+                <input class="login-form-control" required type="email" id="email" placeholder="youremail@email.com">
+                <label for='password'>Password</label> </br>
+                <input class="login-form-control" required type="password" id="password" placeholder="*******">
+            </div>
+            <div class="login-bottom">
+                <button type="submit" class="login-form-submit">Submit</button>
+                <a class="login-form-link" href="/forgotPassword">Forgot password?</a>
+            </div>
+        </form>
     </div>
 </div>

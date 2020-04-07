@@ -1,19 +1,21 @@
 <div class="login-main-container">
     <div class="container">
-        <div class="login-top">
+        <form action="/completeRegistrationForm">
+            <div class="login-top">
             <h1>Sign Up</h1>
-        </div>
-        <div class="login-middle">
-            <label for='email'>Email</label> </br>
-            <input type="text" id="email" placeholder="youremail@email.com">
-            <label for='password'>Password</label> </br>
-            <input type="text" id="password" placeholder="*******">
-            <label for='password'>Comfirm Password</label> </br>
-            <input type="text" id="password" placeholder="*******">
-        </div>
-        <div class="login-bottom">
-            <button>Submit</button>
-            <a id="sign-in" href="#">Sign in</a>
-        </div>
+            </div>
+            <div class="login-middle">
+                <label for='email'>Email</label> </br>
+                <input class="login-form-control" type="email" id="email" required placeholder="youremail@email.com">
+                <label for='password'>Password</label> </br>
+                <input class="login-form-control" type="password" id="password" required placeholder="*******" minlegth="9">
+                <label for='password'>Comfirm Password</label> </br>
+                <input class="login-form-control" type="password" id="password" required placeholder="*******" minlegth="9">
+            </div>
+            <div class="login-bottom">
+                <button type="submit" class="login-form-submit">Submit</button>
+                <a class="login-form-link" id="sign-in" href="/loginPageLogin">Sign in</a>
+            </div>
+        </form>
     </div>
 </div>

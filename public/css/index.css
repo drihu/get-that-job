@@ -255,10 +255,11 @@ a.hero-button {
   line-height: 28px;
 }
 .contact-form-submit {
+  position: absolute;
+  right: 15px;
   display: block;
   width: 40%;
   min-width: 200px;
-  margin-left: 60%;
   padding: 15px 23px;
   background: #000000;
   border: 0;
@@ -294,6 +295,7 @@ a.hero-button {
     display: block;
   }
   .contact-form-submit {
+    position: static;
     display: inline-block;
     width: auto;
     margin-left: 0;
