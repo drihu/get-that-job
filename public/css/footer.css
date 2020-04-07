@@ -1,0 +1,33 @@
+
+footer{
+    border-bottom: 1px solid rgba(193, 187, 187, 0.77);
+}
+
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 10%;
+    margin-bottom: 1%;
+}
+
+footer .container h3{
+    font-weight: 100;
+    cursor: pointer;
+    margin: 10% 0 10% 0;
+}
+
+footer .container ul{
+    color: #7A7A7A;
+    margin-bottom: 7%;
+}
+
+footer .container .cont{
+    width: 170px;
+}
+
+.year p{
+    margin: 6px auto;
+    color: #73738D;;
+    width: 149px;
+}
