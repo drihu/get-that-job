@@ -129,3 +129,64 @@ a.hero-button {
     width: 50%;
   }
 }
+
+/* TESTIMONIALS SECTION */
+.testimonials {
+  padding: 54px 0;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Overpass";
+}
+.testimonials .container {
+  display: flex;
+}
+.testimonials-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+}
+.testimonial {
+  width: 80%;
+}
+.testimonial-photo {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 8px;
+}
+.testimonial-quote {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+.testimonial-author {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+.testimonial-role {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+@media only screen and (min-width: 992px) {
+  .testimonials {
+    padding: 75px 0;
+  }
+  .testimonial-quote {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .testimonial-author {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .testimonial-role {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
