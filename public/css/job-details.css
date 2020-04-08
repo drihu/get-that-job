@@ -1,0 +1,128 @@
+.job-details .container {
+  display: flex;
+  justify-content: space-between;
+  width: 71.12%;
+  margin: 24px auto 64px auto;
+}
+
+.see-more {
+  margin: 24px 0 24px 0;
+}
+
+.see-more a {
+  color: #3C2DFF;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.see-more i {
+  color: #3C2DFF;
+}
+
+.title h1 {
+  margin: 5px 0;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.title p {
+  margin: 3px 0;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.title ul {
+  display: flex;
+  justify-content: left;
+  margin: 3px 0;
+}
+
+.title li {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0 8px;;
+  height: 22px;
+  border-radius: 4px;
+  background: #3C2DFF;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.content {
+  margin: 12px 0;
+  width: 87.4%;
+  text-align: justify;
+}
+
+.content h2 {
+  margin: 16px 0;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.content p {
+  margin: 16px 0;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.content li {
+  list-style-position: inside;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.get-job {
+  width: 160px;
+  height: 40px;
+  border: 0;
+  background: #3C2DFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-job a {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.company-card {
+  width: 250px;
+  height: 385px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

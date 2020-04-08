@@ -1,17 +1,28 @@
+.navbar {
+    background: #FFFFFF;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
 .navbar .container {
     display: flex;
-    justify-content: space-around;
+    width: 71.12%;
+    justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .navbar .nav-title {
     display: flex;
     align-items: center;
+    justify-self: flex-start;
 }
 
 .nav-links {
     display: flex;
-    width: 500px;
+    justify-self: flex-end;
+    
     height: auto;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +30,7 @@
 }
 
 .nav-links a {
+    margin-left: 20px;
     text-decoration: none;
     font-family: Nunito;
     font-style: normal;
@@ -29,8 +41,6 @@
 }
 
 .nav-links .nav-btn {   
-    width: 69px;
-    height: 28px;
     border-radius: 5px;
     font-family: Nunito;
     font-style: normal;
