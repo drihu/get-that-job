@@ -8,213 +8,246 @@
         <button type=" submit"><i class="fa fa-search"></i></button>
         <input type="text" placeholder="Find that job!" name="search">
       </div>
-      <div class="drop-downs">
-        <select id="country" name="country">
-          <option value="" selected disabled hidden>Country</option>
-          <option value="country1">Country 1</option>
-          <option value="country2">Country 2</option>
-          <option value="country3">Country 3</option>
-          <option value="country4">Country 4</option>
-        </select>
-        <select id="type" name="type">
-          <option value="" selected disabled hidden>Type</option>
-          <option value="type1">Type 1</option>
-          <option value="type2">Type 2</option>
-          <option value="type3">Type 3</option>
-          <option value="type4">Type 4</option>
-        </select>
-        <select id="salary" name="salary">
-          <option value="" selected disabled hidden>Salary Range</option>
-          <option value="salary1">Salary 1</option>
-          <option value="salary2">Salary 2</option>
-          <option value="salary3">Salary 3</option>
-          <option value="salary4">Salary 4</option>
-        </select>
-        <select id="more" name="more">
-          <option value="" selected disabled hidden>More</option>
-          <option value="more1">More 1</option>
-          <option value="more2">More 2</option>
-          <option value="more3">More 3</option>
-          <option value="more4">More 4</option>
-        </select>
+      <div class="dropdown-list">
+        <div class="dropdown">
+          <a class="navbar-item dropdown-button" href="#">Country</a>
+          <div class="dropdown-menu">
+            <div class="dropdown-container">
+              <div class="dropdown-item">Peru</div>
+              <div class="dropdown-item">Colombia</div>
+              <div class="dropdown-item">Arequipa</div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class="navbar-item dropdown-button" href="#">Type</a>
+          <div class="dropdown-menu">
+            <div class="dropdown-container">
+              <div class="dropdown-item">Full-Time</div>
+              <div class="dropdown-item">Part-Time</div>
+              <div class="dropdown-item">For Free</div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class="navbar-item dropdown-button" href="#">Experience</a>
+          <div class="dropdown-menu">
+            <div class="dropdown-container experience">
+              <div class="dropdown-item">No Experience</div>
+              <div class="dropdown-item">Junior</div>
+              <div class="dropdown-item">Semi Senior</div>
+              <div class="dropdown-item">Senior</div>
+              <div class="dropdown-item">Codeable Graduate</div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class="navbar-item dropdown-button" href="#">Sorter</a>
+          <div class="dropdown-menu">
+            <div class="dropdown-container">
+              <div class="dropdown-item">Newest</div>
+              <div class="dropdown-item">Highest Salary</div>
+              <div class="dropdown-item">Lowest Salary</div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="recommended">
-        <select id="order-by" name="order-by">
-          <option value="order1">Recommended</option>
-          <option value="order2">Latest</option>
-          <option value="order3">Oldest</option>
-        </select>
+      <div class="dropdown">
+        <a class="navbar-item dropdown-button transparent" href="#">Experience</a>
+        <div class="dropdown-menu">
+          <div class="dropdown-container">
+            <div class="dropdown-item">Newest</div>
+            <div class="dropdown-item">Highest Salary</div>
+            <div class="dropdown-item">Lowest Salary</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="jobs">
-      <div class="job-card">
-        <div class="job-detail">
-          <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
-          <div class="job-description">
-            <div class="job-name">
-              <p>Software Engineer</p>
-              <p>NEW</p>
-            </div>
-            <div class="job-company">
-              <p>Able - Lima</p>
-              <img src="assets/peru.png" alt="Peru flag">
-            </div>
-          </div>
-        </div>
-        <div class="job-items">
-          <img src="assets/dollar.png" alt="Dollar sign">
-          <p>ReactJS</p>
-          <p>ReactJS</p>
-          <p>Today</p>
-        </div>
-      </div>
-      <div class="job-card">
-        <div class="job-detail">
-          <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
-          <div class="job-description">
-            <div class="job-name">
-              <p>Software Engineer</p>
-              <p>NEW</p>
-            </div>
-            <div class="job-company">
-              <p>Able - Lima</p>
-              <img src="assets/peru.png" alt="Peru flag">
+      <a href="/job-details" class="job-card-link">
+        <div class="job-card">
+          <div class="job-detail">
+            <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
+            <div class="job-description">
+              <div class="job-name">
+                <p>Software Engineer</p>
+                <p>NEW</p>
+              </div>
+              <div class="job-company">
+                <p>Able - Lima</p>
+                <img src="assets/peru.png" alt="Peru flag">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="job-items">
-          <img src="assets/dollar.png" alt="Dollar sign">
-          <p>ReactJS</p>
-          <p>ReactJS</p>
-          <p>Today</p>
-        </div>
-      </div>
-      <div class="job-card">
-        <div class="job-detail">
-          <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
-          <div class="job-description">
-            <div class="job-name">
-              <p>Software Engineer</p>
-              <p>NEW</p>
-            </div>
-            <div class="job-company">
-              <p>Able - Lima</p>
-              <img src="assets/peru.png" alt="Peru flag">
-            </div>
+          <div class="job-items">
+            <img src="assets/dollar.png" alt="Dollar sign">
+            <p>ReactJS</p>
+            <p>ReactJS</p>
+            <p>Today</p>
           </div>
         </div>
-        <div class="job-items">
-          <img src="assets/dollar.png" alt="Dollar sign">
-          <p>ReactJS</p>
-          <p>ReactJS</p>
-          <p>Today</p>
-        </div>
-      </div>
-      <div class="job-card">
-        <div class="job-detail">
-          <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
-          <div class="job-description">
-            <div class="job-name">
-              <p>Software Engineer</p>
-              <p>NEW</p>
-            </div>
-            <div class="job-company">
-              <p>Able - Lima</p>
-              <img src="assets/peru.png" alt="Peru flag">
+      </a>
+      <a href="/job-details" class="job-card-link">
+        <div class="job-card">
+          <div class="job-detail">
+            <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
+            <div class="job-description">
+              <div class="job-name">
+                <p>Software Engineer</p>
+                <p>NEW</p>
+              </div>
+              <div class="job-company">
+                <p>Able - Lima</p>
+                <img src="assets/peru.png" alt="Peru flag">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="job-items">
-          <img src="assets/dollar.png" alt="Dollar sign">
-          <p>ReactJS</p>
-          <p>ReactJS</p>
-          <p>Today</p>
-        </div>
-      </div>
-      <div class="job-card">
-        <div class="job-detail">
-          <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
-          <div class="job-description">
-            <div class="job-name">
-              <p>Software Engineer</p>
-              <p>NEW</p>
-            </div>
-            <div class="job-company">
-              <p>Able - Lima</p>
-              <img src="assets/peru.png" alt="Peru flag">
-            </div>
+          <div class="job-items">
+            <img src="assets/dollar.png" alt="Dollar sign">
+            <p>ReactJS</p>
+            <p>ReactJS</p>
+            <p>Today</p>
           </div>
         </div>
-        <div class="job-items">
-          <img src="assets/dollar.png" alt="Dollar sign">
-          <p>ReactJS</p>
-          <p>ReactJS</p>
-          <p>Today</p>
-        </div>
-      </div>
-      <div class="job-card">
-        <div class="job-detail">
-          <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
-          <div class="job-description">
-            <div class="job-name">
-              <p>Software Engineer</p>
-              <p>NEW</p>
-            </div>
-            <div class="job-company">
-              <p>Able - Lima</p>
-              <img src="assets/peru.png" alt="Peru flag">
+      </a>
+      <a href="/job-details" class="job-card-link">
+        <div class="job-card">
+          <div class="job-detail">
+            <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
+            <div class="job-description">
+              <div class="job-name">
+                <p>Software Engineer</p>
+                <p>NEW</p>
+              </div>
+              <div class="job-company">
+                <p>Able - Lima</p>
+                <img src="assets/peru.png" alt="Peru flag">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="job-items">
-          <img src="assets/dollar.png" alt="Dollar sign">
-          <p>ReactJS</p>
-          <p>ReactJS</p>
-          <p>Today</p>
-        </div>
-      </div>
-      <div class="job-card">
-        <div class="job-detail">
-          <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
-          <div class="job-description">
-            <div class="job-name">
-              <p>Software Engineer</p>
-              <p>NEW</p>
-            </div>
-            <div class="job-company">
-              <p>Able - Lima</p>
-              <img src="assets/peru.png" alt="Peru flag">
-            </div>
+          <div class="job-items">
+            <img src="assets/dollar.png" alt="Dollar sign">
+            <p>ReactJS</p>
+            <p>ReactJS</p>
+            <p>Today</p>
           </div>
         </div>
-        <div class="job-items">
-          <img src="assets/dollar.png" alt="Dollar sign">
-          <p>ReactJS</p>
-          <p>ReactJS</p>
-          <p>Today</p>
-        </div>
-      </div>
-      <div class="job-card">
-        <div class="job-detail">
-          <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
-          <div class="job-description">
-            <div class="job-name">
-              <p>Software Engineer</p>
-              <p>NEW</p>
-            </div>
-            <div class="job-company">
-              <p>Able - Lima</p>
-              <img src="assets/peru.png" alt="Peru flag">
+      </a>
+      <a href="/job-details" class="job-card-link">
+        <div class="job-card">
+          <div class="job-detail">
+            <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
+            <div class="job-description">
+              <div class="job-name">
+                <p>Software Engineer</p>
+                <p>NEW</p>
+              </div>
+              <div class="job-company">
+                <p>Able - Lima</p>
+                <img src="assets/peru.png" alt="Peru flag">
+              </div>
             </div>
           </div>
+          <div class="job-items">
+            <img src="assets/dollar.png" alt="Dollar sign">
+            <p>ReactJS</p>
+            <p>ReactJS</p>
+            <p>Today</p>
+          </div>
         </div>
-        <div class="job-items">
-          <img src="assets/dollar.png" alt="Dollar sign">
-          <p>ReactJS</p>
-          <p>ReactJS</p>
-          <p>Today</p>
+      </a>
+      <a href="/job-details" class="job-card-link">
+        <div class="job-card">
+          <div class="job-detail">
+            <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
+            <div class="job-description">
+              <div class="job-name">
+                <p>Software Engineer</p>
+                <p>NEW</p>
+              </div>
+              <div class="job-company">
+                <p>Able - Lima</p>
+                <img src="assets/peru.png" alt="Peru flag">
+              </div>
+            </div>
+          </div>
+          <div class="job-items">
+            <img src="assets/dollar.png" alt="Dollar sign">
+            <p>ReactJS</p>
+            <p>ReactJS</p>
+            <p>Today</p>
+          </div>
         </div>
-      </div>
+      </a>
+      <a href="/job-details" class="job-card-link">
+        <div class="job-card">
+          <div class="job-detail">
+            <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
+            <div class="job-description">
+              <div class="job-name">
+                <p>Software Engineer</p>
+                <p>NEW</p>
+              </div>
+              <div class="job-company">
+                <p>Able - Lima</p>
+                <img src="assets/peru.png" alt="Peru flag">
+              </div>
+            </div>
+          </div>
+          <div class="job-items">
+            <img src="assets/dollar.png" alt="Dollar sign">
+            <p>ReactJS</p>
+            <p>ReactJS</p>
+            <p>Today</p>
+          </div>
+        </div>
+      </a>
+      <a href="/job-details" class="job-card-link">
+        <div class="job-card">
+          <div class="job-detail">
+            <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
+            <div class="job-description">
+              <div class="job-name">
+                <p>Software Engineer</p>
+                <p>NEW</p>
+              </div>
+              <div class="job-company">
+                <p>Able - Lima</p>
+                <img src="assets/peru.png" alt="Peru flag">
+              </div>
+            </div>
+          </div>
+          <div class="job-items">
+            <img src="assets/dollar.png" alt="Dollar sign">
+            <p>ReactJS</p>
+            <p>ReactJS</p>
+            <p>Today</p>
+          </div>
+        </div>
+      </a>
+      <a href="/job-details" class="job-card-link">
+        <div class="job-card">
+          <div class="job-detail">
+            <div class="logo"><img src="assets/able.png" alt="Able logo"></div>
+            <div class="job-description">
+              <div class="job-name">
+                <p>Software Engineer</p>
+                <p>NEW</p>
+              </div>
+              <div class="job-company">
+                <p>Able - Lima</p>
+                <img src="assets/peru.png" alt="Peru flag">
+              </div>
+            </div>
+          </div>
+          <div class="job-items">
+            <img src="assets/dollar.png" alt="Dollar sign">
+            <p>ReactJS</p>
+            <p>ReactJS</p>
+            <p>Today</p>
+          </div>
+        </div>
+      </a>
       <div class="load-more">
         <a href="">Load More</a>
       </div>
