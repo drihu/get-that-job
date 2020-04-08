@@ -1,7 +1,7 @@
 .job-details .container {
   display: flex;
   justify-content: space-between;
-  width: 71.12%;
+  width: 90.12%;
   margin: 24px auto 64px auto;
 }
 
@@ -65,9 +65,13 @@
   color: #FFFFFF;
 }
 
+.container{
+  flex-wrap: wrap;
+}
+
 .content {
   margin: 12px 0;
-  width: 87.4%;
+  width: 100%;
   text-align: justify;
 }
 
@@ -101,6 +105,20 @@
   color: #000000;
 }
 
+.content ul.listing{
+  padding-left: 3%;
+}
+
+.jd-left{
+  width: 72%;
+}
+
+.jd-right{
+  padding-top: 40px;
+  margin-left: 5px;
+  width: 290px;
+}
+
 .get-job {
   width: 160px;
   height: 40px;
@@ -121,7 +139,7 @@
 }
 
 .company-card {
-  width: 250px;
+  width: 100%;
   height: 385px;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
