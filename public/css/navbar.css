@@ -57,10 +57,11 @@
 .nav-links .nav-btn {
   /*margin-bottom: 10px;*/
     border-radius: 5px;
+    padding: 0 3px;
     font-style: normal;
     font-weight: bolder;
-    font-size: 13px;
-    line-height: 22px;
+    font-size: 50%;
+    white-space: nowrap;
     line-height: 18px;
     display: flex;
     justify-content: center;
@@ -100,5 +101,6 @@
   }
   .nav-links .nav-btn {
     margin-bottom: 0;
+    font-size: 13px;
   }
 }
