@@ -7,7 +7,7 @@
 }
 
 .navbar .container {
-  height: 100px;  
+  height: 100px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-self: flex-start;
-    
+
 }
 
 .nav-links {
@@ -36,13 +36,16 @@
     display: inline-block;
     /*width: 33.33%;*/
     /*margin-left: 20px;*/
-    margin: 0 10px;
+    margin-right: 10px;
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 70%;
     line-height: 22px;
     color: black;
+}
+.nav-links a:last-child {
+  margin-right: 0;
 }
 
 /*.nav-links a:first-child,
@@ -60,7 +63,6 @@
     padding: 0 3px;
     font-style: normal;
     font-weight: bolder;
-    font-size: 50%;
     white-space: nowrap;
     line-height: 18px;
     display: flex;
@@ -69,13 +71,11 @@
 }
 
 .nav-links .nav-btn:nth-child(4) {
-    width: 69px;
     height: 28px;
     border: 2px solid #000000;
 }
 
 .nav-links .nav-btn:nth-child(5) {
-    width: 162px;
     height: 28px;
     border: 2px solid #3C2DFF;
     color: #3C2DFF;
@@ -94,6 +94,7 @@
   .nav-links a {
     width: auto;
     margin-left: 20px;
+    font-size: 16px;
   }
   .nav-links a:first-child,
   .nav-links a:nth-child(2) {
@@ -102,5 +103,12 @@
   .nav-links .nav-btn {
     margin-bottom: 0;
     font-size: 13px;
+  }
+  .nav-links .nav-btn:nth-child(4) {
+    padding: 5px 10px;
+  }
+
+  .nav-links .nav-btn:nth-child(5) {
+    padding: 5px 10px;
   }
 }
