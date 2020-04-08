@@ -1,0 +1,215 @@
+.job-listing {
+  background: #F7FAFC;
+}
+
+.job-listing .container {
+  display: flex;
+  width: 71.6%;
+  flex-direction: column;
+  margin: 24px auto 64px auto;
+}
+
+.jl-title h1 {
+  margin: 10px 0;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.jl-form {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-bar {
+  box-shadow: 0px 1px 3px lightgray;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 28%;
+  height: 40px;
+  background: #fff;
+}
+
+.search-bar button{
+  border: 0;
+  margin: 0 10px;
+  background: #fff;
+}
+
+.search-bar i {
+  color: #565D69;
+  background:#fff;
+}
+
+.search-bar input {
+  border: none;
+  height: 40px;
+  width: 90%;
+  padding: 0 5px;
+}
+
+.search-bar ::placeholder {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 30px;
+  color: #4A5568;
+}
+
+.drop-downs select {
+  background: white;
+  box-shadow: 0px 1px 3px lightgray;
+  border-radius: 4px;
+  height: 40px;
+  padding: 0 8px;
+  border: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #4A5568;
+}
+
+.recommended select {
+  background: white;
+  box-shadow: 0px 1px 3px lightgray;
+  border-radius: 4px;
+  height: 40px;
+  padding: 0 8px;
+  border: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #4A5568;
+}
+
+.jobs {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-card {
+  margin: 10px 0;
+  height: 82px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.job-detail {
+  display:flex;
+  align-items: center
+}
+
+.logo {
+  margin: 15px;
+}
+
+.job-name {
+  display:flex;
+  align-items: center;
+}
+
+.job-name p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #4A5568;
+}
+
+.job-name p:nth-child(2) {
+  background: red;
+  padding: 0 5px;
+  margin: 0 7px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+.job-company {
+  display: flex;
+  align-items: center;
+}
+
+.job-company p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.job-company img {
+  margin: 0 9px;
+}
+
+.job-items {
+  display: flex;
+  align-items: center;
+}
+
+.job-items p:nth-child(2), .job-items p:nth-child(3) {
+  margin-left: 10px;
+  width: 54px;
+  height: 20px;
+  background: #3C2DFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.job-items p:nth-child(4) {
+  margin: 0 20px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #718096;
+}
+
+.load-more {
+  margin: 24px auto;
+  width: 119px;
+  height: 38px;
+  border: 0;
+  border-radius: 4px;
+  background: #3C2DFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.load-more a {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
