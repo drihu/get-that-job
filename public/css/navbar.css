@@ -3,12 +3,12 @@
     height: 100px;
     display: flex;
     align-items: center;
+    font-family: "Nunito";
 }
 
 .navbar .container {
     display: flex;
-    width: 71.12%;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -17,22 +17,24 @@
     display: flex;
     align-items: center;
     justify-self: flex-start;
+    margin-bottom: 10px;
 }
 
 .nav-links {
     display: flex;
+    flex-wrap: wrap;
     justify-self: flex-end;
-    
+    width: 100%;
     height: auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    
 }
 
 .nav-links a {
+    display: inline-block;
+    width: 33.33%;
     margin-left: 20px;
     text-decoration: none;
-    font-family: Nunito;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -40,9 +42,18 @@
     color: black;
 }
 
-.nav-links .nav-btn {   
+.nav-links a:first-child,
+.nav-links a:nth-child(2) {
+  display: none;
+}
+
+.nav-links :first-child {
+  margin-left: 0;
+}
+
+.nav-links .nav-btn {
+  margin-bottom: 10px;
     border-radius: 5px;
-    font-family: Nunito;
     font-style: normal;
     font-weight: bolder;
     font-size: 13px;
@@ -64,4 +75,25 @@
     height: 28px;
     border: 2px solid #3C2DFF;
     color: #3C2DFF;
+}
+@media only screen and (min-width: 992px) {
+  .navbar .container {
+    justify-content: space-between;
+  }
+  .nav-title {
+    margin-bottom: 0;
+  }
+  .nav-links {
+    width: auto;
+  }
+  .nav-links a {
+    width: auto;
+  }
+  .nav-links a:first-child,
+  .nav-links a:nth-child(2) {
+    display: block;
+  }
+  .nav-links .nav-btn {
+    margin-bottom: 0;
+  }
 }

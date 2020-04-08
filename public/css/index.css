@@ -90,6 +90,11 @@ a.hero-button {
   display: flex;
   flex-direction: column;
 }
+.description-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .description-title {
   margin-bottom: 20px;
   color: #ffffff;
@@ -109,7 +114,6 @@ a.hero-button {
     flex-direction: row;
   }
   .description-content {
-    display: block;
     width: 50%;
   }
   .description-title {
