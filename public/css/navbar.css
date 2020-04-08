@@ -1,29 +1,31 @@
 .navbar {
     background: #FFFFFF;
-    height: 100px;
+    /*height: 100px;*/
     display: flex;
     align-items: center;
     font-family: "Nunito";
 }
 
 .navbar .container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+  height: 100px;  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 
 .navbar .nav-title {
     display: flex;
     align-items: center;
     justify-self: flex-start;
-    margin-bottom: 10px;
+    
 }
 
 .nav-links {
     display: flex;
-    flex-wrap: wrap;
-    justify-self: flex-end;
+    /*flex-wrap: wrap;
+    justify-self: flex-end;*/
+    margin: 10px 0;
     width: 100%;
     height: auto;
     justify-content: center;
@@ -32,8 +34,9 @@
 
 .nav-links a {
     display: inline-block;
-    width: 33.33%;
-    margin-left: 20px;
+    /*width: 33.33%;*/
+    /*margin-left: 20px;*/
+    margin: 0 10px;
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
@@ -42,17 +45,17 @@
     color: black;
 }
 
-.nav-links a:first-child,
+/*.nav-links a:first-child,
 .nav-links a:nth-child(2) {
   display: none;
 }
 
 .nav-links :first-child {
   margin-left: 0;
-}
+}*/
 
 .nav-links .nav-btn {
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
     border-radius: 5px;
     font-style: normal;
     font-weight: bolder;
@@ -78,6 +81,7 @@
 }
 @media only screen and (min-width: 992px) {
   .navbar .container {
+    height: 100px;
     justify-content: space-between;
   }
   .nav-title {
@@ -88,6 +92,7 @@
   }
   .nav-links a {
     width: auto;
+    margin-left: 20px;
   }
   .nav-links a:first-child,
   .nav-links a:nth-child(2) {
