@@ -1,5 +1,11 @@
 # Get That Job
 
+## Team
+
+* Ricardo Huamani
+* Adonai Luque
+* Marcelo Nunez
+
 ## App
 
 Get that job is a Sinatra application.
