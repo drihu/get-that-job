@@ -1,8 +1,94 @@
+.job-details {
+  font-family: "Nunito";
+}
+
 .job-details .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  width: 90.12%;
-  margin: 24px auto 64px auto;
+}
+
+.job-details-content-wrapper {
+  width: 100%;
+}
+
+.job-company-card-wrapper {
+  width: 100%;
+  order: -1;
+}
+
+.company-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 15px;
+  padding: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.company-card-figure {
+  width: 35%;
+  text-align: center;
+}
+
+.company-card-logo {
+  display: inline-block;
+  width: 50%;
+}
+
+.company-card-title {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.company-card-data {
+  width: 65%;
+}
+
+.job-details-label {
+  margin-bottom: 4px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.job-details-label:nth-child(3) {
+  margin-bottom: 41px;
+}
+
+.job-details-button {
+  background: #3C2DFF;
+  padding: 8px 51px;
+}
+
+@media only screen and (min-width: 992px) {
+  .job-details-content-wrapper {
+    width: 65%;
+  }
+
+  .job-company-card-wrapper {
+    width: 35%;
+    order: 0;
+  }
+  .company-card {
+    width: 250px;
+    margin: 30px auto 0;
+    padding: 40px 32px 16px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .company-card-figure {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .company-card-data {
+    width: 100%;
+  }
 }
 
 .see-more {
@@ -49,7 +135,6 @@
 }
 
 .title li {
-  list-style-type: none;
   margin: 5px;
   padding: 0 8px;;
   height: 22px;
@@ -63,10 +148,6 @@
   display: flex;
   align-items: center;
   color: #FFFFFF;
-}
-
-.container{
-  flex-wrap: wrap;
 }
 
 .content {
@@ -96,7 +177,6 @@
 }
 
 .content li {
-  list-style-position: inside;
   font-family: Nunito;
   font-style: normal;
   font-weight: normal;
@@ -109,24 +189,13 @@
   padding-left: 3%;
 }
 
-.jd-left{
-  width: 72%;
-}
-
-.jd-right{
-  padding-top: 40px;
-  margin-left: 5px;
-  width: 290px;
-}
-
-.get-job {
-  width: 160px;
-  height: 40px;
+a.get-job {
+  display: inline-block;
   border: 0;
   background: #3C2DFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 15px;
+  padding: 8px 51px;
+  color: #FFFFFF;
 }
 
 .get-job a {
@@ -136,11 +205,4 @@
   font-size: 16px;
   line-height: 24px;
   color: #FFFFFF;
-}
-
-.company-card {
-  width: 100%;
-  height: 385px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
